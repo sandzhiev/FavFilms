@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+}
+
+body {
+    background-image: url(/resources/img/inception.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+input {
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid;
+    background-color: transparent
+}
+
+
+h4 {
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.data {
+    text-align: center;
+    margin-top: 10%
+}
+
+#start {
+    font-size: 90%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5% 45%;
+    padding: 5px;
+    border-radius: 10%;
+    border-color: black;
+    width: 80px;
+    color: antiquewhite;
+    background-color: black;
+    
+}
+
+#start:hover {
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+

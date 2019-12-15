@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/resources/img/breakingbad.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 150%
+}
+
+.container {
+    text-align: center;
+    margin-top: 10%
+}
+
+
+
+
+
+input {
+    background-color: transparent;
+    color: white;
+    border: solid 1px darkgrey;
+    height: 35px;
+    width: 20%;
+    font-size: 130%;
+}
+
+#add {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+ul {
+    margin: 30px auto;
+    width: 30%;
+    
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    line-height: 40px;
+    color: white;
+    font-size: 140%;
+}
+
+#deletebtn {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 60%;
+}
+
+#deletebtn:hover {
+    cursor: pointer;
+}
+
+#more {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
