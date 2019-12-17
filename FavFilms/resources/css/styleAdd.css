@@ -1,6 +1,7 @@
 * {
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -9,22 +10,18 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    letter-spacing: 1px;
 }
 
 h4 {
     color: white;
-    letter-spacing: 1px;
-    font-size: 150%
+    font-size: 170%
 }
 
 .container {
     text-align: center;
     margin-top: 10%
 }
-
-
-
-
 
 input {
     background-color: transparent;
@@ -46,7 +43,7 @@ input {
 }
 
 ul {
-    margin: 30px auto;
+    margin: 20px auto;
     width: 30%;
     
 }
@@ -54,9 +51,13 @@ ul {
 li {
     list-style: none;
     text-align: left;
-    line-height: 40px;
+    line-height: 20px;
     color: white;
     font-size: 140%;
+}
+
+li p {
+    display: inline-block;
 }
 
 #deletebtn {
