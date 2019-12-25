@@ -18,7 +18,7 @@ h4 {
     font-size: 170%
 }
 
-.container {
+#container {
     text-align: center;
     margin-top: 10%
 }
@@ -40,6 +40,35 @@ input {
     color: white;
     padding: 10px;
     border: none;
+}
+
+#result {
+    color: white;
+    width: 60%;
+    height: 200px;
+    margin-bottom: 80px;
+}
+#redo {
+   position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+#result img {
+    float: left;
+    height: 100%;
+    width: 140px;
+    margin-right: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+#result img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 ul {
